@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient
 from fetch import semantic_search
 
+
 app = FastAPI(title="PubMed Semantic Search API")
 
 app.add_middleware(
