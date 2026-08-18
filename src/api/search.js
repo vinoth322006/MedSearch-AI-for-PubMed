@@ -10,6 +10,7 @@ export async function semanticSearch(query, topK = 10) {
   return res.data.results || []
 }
 
+
 export async function getArticle(pmid) {
   const res = await axios.get(`${API_BASE}/api/articles/${pmid}`)
   return res.data
