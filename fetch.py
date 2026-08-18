@@ -6,6 +6,7 @@ No local embedding model is required.
 Atlas generates the query embedding automatically.
 """
 
+
 from pymongo import MongoClient
 
 # --------------------------------------------------
