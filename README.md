@@ -57,6 +57,7 @@ npm run dev
 
 → runs on **http://localhost:5173**
 
+
 Open **http://localhost:5173** in your browser.
 
 Search works immediately (no login needed).
