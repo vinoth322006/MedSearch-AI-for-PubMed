@@ -8,6 +8,7 @@ const MOCK_USERS = [
   }
 ]
 
+
 export async function loginUser(email, password) {
   await new Promise((resolve) => setTimeout(resolve, 600))
   const user = MOCK_USERS.find((u) => u.email === email && u.password === password)
