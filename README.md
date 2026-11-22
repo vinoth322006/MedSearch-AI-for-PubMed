@@ -66,8 +66,7 @@ Search works immediately (no login needed).
 
 Login is required to save bookmarks/history.
 
-* **Email:** `admin@medisearch.local`
-* **Password:** `admin12345`
+* The seed step above creates a local admin account. Its login details are in `prisma/seed.ts`.
 * Go to **http://localhost:5173/login**
 
 ## Stop everything
